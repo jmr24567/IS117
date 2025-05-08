@@ -1,0 +1,77 @@
+<!-- DEVELOPER: Jessica Ramirez, IS117-002, Spring 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+
+
+  <link rel="stylesheet" href="styles/main.css">
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+      <!-- Left-aligned links -->
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="history.html">History</a></li>
+            <li><a href="matcha.html">How to Make Matcha</a></li>
+          </ul>
+        </li>
+
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+      </ul>
+
+      <!-- Centered Logo -->
+      <a class="navbar-brand center-logo" href="index.html">
+        <img src="images/1.png" alt="Logo" class="logo-img" />
+      </a>
+    </div>
+  </nav>
+
+  <!-- Contact Form Section -->
+  <main>
+    <div class="container contact-form">
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name..." />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email..." />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write something..."></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="copyright">
+    <div class="text-center p-3">
+      <p>© 2025 Jessica Ramirez. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
