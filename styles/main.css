@@ -234,7 +234,7 @@ background-color: #435005;
 }
 
 .matcha-jumbo {
-  background-image: url('images/matchaHeader.png'); 
+  background-image: url('../images/matchaHeader.png'); 
   background-size: cover;
   background-position: center;
   color:#f5f5ef; 
